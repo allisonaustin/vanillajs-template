@@ -21,6 +21,9 @@ async function getSurveyData() {
 
 document.querySelector('#main').innerHTML = `
   <div id='main-container' class='d-flex flex-column flex-nowrap'>
+    <div class="view_title">
+          <h3 class="header center-align">Music Survey Results</h3>
+        </div>
     ${Sankey()}
   </div>
 `
